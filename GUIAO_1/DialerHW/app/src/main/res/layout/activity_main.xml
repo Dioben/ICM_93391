@@ -9,127 +9,150 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="84dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginTop="10dp"
         android:onClick="addNumber"
         android:text="@string/_2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button4"
         app:layout_constraintEnd_toStartOf="@+id/button3"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toEndOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/speed_2" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button4" />
 
     <Button
         android:id="@+id/button9"
-        android:layout_width="84dp"
-        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:onClick="addNumber"
         android:text="@string/_8"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
         app:layout_constraintEnd_toStartOf="@+id/button11"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/button8"
         app:layout_constraintTop_toBottomOf="@+id/button7" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="84dp"
-        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
         android:onClick="addNumber"
         android:text="@string/_4"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="84dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginEnd="32dp"
         android:onClick="addNumber"
         android:text="@string/_6"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button7" />
 
     <Button
         android:id="@+id/button11"
-        android:layout_width="84dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginEnd="32dp"
         android:onClick="addNumber"
         android:text="@string/_9"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button9" />
 
     <Button
         android:id="@+id/button8"
-        android:layout_width="84dp"
-        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
         android:onClick="addNumber"
         android:text="@string/_7"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toStartOf="@+id/button9"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="84dp"
-        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
+        android:layout_marginBottom="100dp"
         android:onClick="addNumber"
         android:text="@string/asterisk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button14"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button8" />
 
     <Button
         android:id="@+id/button14"
-        android:layout_width="84dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
         android:onClick="addNumber"
         android:text="@string/_0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button13"
         app:layout_constraintEnd_toStartOf="@+id/button15"
-        app:layout_constraintStart_toEndOf="@+id/button13"
-        app:layout_constraintTop_toBottomOf="@+id/button9" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button13" />
 
     <Button
         android:id="@+id/button15"
-        android:layout_width="84dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginEnd="32dp"
         android:onClick="addNumber"
         android:text="@string/hash"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button11" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button14" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="84dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="32dp"
         android:onClick="addNumber"
         android:text="@string/_3"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/speed_3" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button2" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="84dp"
-        android:layout_height="60dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="10dp"
         android:onClick="addNumber"
         android:text="@string/_1"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/speed_1" />
+        app:layout_constraintTop_toBottomOf="@+id/speed_1"
+        app:layout_constraintVertical_chainStyle="packed" />
 
     <Button
         android:id="@+id/button7"
-        android:layout_width="84dp"
+        android:layout_width="0dp"
         android:layout_height="60dp"
         android:onClick="addNumber"
         android:text="@string/_5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button"
         app:layout_constraintEnd_toStartOf="@+id/button10"
-        app:layout_constraintStart_toEndOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button" />
 
     <TextView
         android:id="@+id/numberholder"
@@ -152,7 +175,6 @@
         android:id="@+id/imageButton"
         android:layout_width="96dp"
         android:layout_height="59dp"
-        android:layout_marginTop="15dp"
         android:layout_marginBottom="10dp"
         android:contentDescription="@string/call"
         android:longClickable="false"
@@ -160,8 +182,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button14"
-        app:layout_constraintVertical_bias="0.494"
         app:srcCompat="@android:drawable/ic_menu_call" />
 
     <ImageButton
@@ -170,46 +190,50 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="50dp"
         android:contentDescription="@string/del"
         android:onClick="deleteChar"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
 
     <Button
         android:id="@+id/speed_1"
-        android:layout_width="84dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
-        android:layout_marginStart="28dp"
+        android:layout_marginStart="32dp"
         android:onClick="speedDialPress"
         android:textIsSelectable="false"
         android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numberholder" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/speed_2"
+        app:layout_constraintEnd_toStartOf="@+id/speed_2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/speed_2"
-        android:layout_width="84dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
+        android:layout_marginTop="10dp"
         android:onClick="speedDialPress"
         android:textIsSelectable="false"
         android:textSize="10sp"
         app:layout_constraintEnd_toStartOf="@+id/speed_3"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/speed_1"
         app:layout_constraintTop_toBottomOf="@+id/numberholder" />
 
     <Button
         android:id="@+id/speed_3"
-        android:layout_width="84dp"
+        android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginEnd="32dp"
         android:onClick="speedDialPress"
         android:textIsSelectable="false"
         android:textSize="10sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/speed_2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numberholder" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/speed_2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
