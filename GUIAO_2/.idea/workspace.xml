@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0cc05347-f005-485d-a5ef-5c1543fcb0ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/androidTest/java/com/example/recyclerview/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/java/com/example/recyclerview/WordListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/java/com/example/recyclerview/recTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/drawable-anydpi/ic_add_for_fab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/drawable-hdpi/ic_add_for_fab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/drawable-mdpi/ic_add_for_fab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/drawable-xhdpi/ic_add_for_fab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/drawable-xxhdpi/ic_add_for_fab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/layout/activity_rec_test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/layout/wordlist_item_xml.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/app/src/test/java/com/example/recyclerview/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecyclerView/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GUIAO_1/DialerHW/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GUIAO_1/DialerHW/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1iuLu5UXbDJfor5WbSvZwA0PsVl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cc05347-f005-485d-a5ef-5c1543fcb0ea" name="Default Changelist" comment="" />
+      <created>1602752749218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602752749218</updated>
+    </task>
+    <servers />
+  </component>
+</project>
