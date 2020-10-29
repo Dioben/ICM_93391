@@ -62,7 +62,7 @@ public class ButtonListAdapter extends RecyclerView.Adapter<ButtonListAdapter.Bu
 
         @Override
         public void onClick(View view) {
-            mAdapter.activity.callWeatherForecastForACityStep1(buttonView.getText().toString());
+            mAdapter.activity.callWeatherForecastForACity(buttonView.getText().toString());
         }
     }
 }

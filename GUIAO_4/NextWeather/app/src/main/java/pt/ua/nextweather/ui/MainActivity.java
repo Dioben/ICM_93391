@@ -15,7 +15,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 
 import pt.ua.nextweather.R;
@@ -29,14 +32,13 @@ import pt.ua.nextweather.network.WeatherTypesResultsObserver;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView feedback;
 
     IpmaWeatherClient client = new IpmaWeatherClient();
     private HashMap<String, City> cities;
     private HashMap<Integer, WeatherType> weatherDescriptions;
     LinearLayoutManager layoutManager = new LinearLayoutManager(this);
     private ButtonListAdapter bAdapter;
-
+    private boolean land_tablet;
 
 
     @Override
@@ -46,9 +48,10 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        //start up menu fragment here
-        ButtonList frag = ButtonList.newInstance();
-        getSupportFragmentManager().beginTransaction().replace(R.id.button_frame,frag).addToBackStack(null).commit();
+        //fetch data
+        getWeatherConditions(); //TODO: MAKE IT SAVE THIS SO I DONT HAVE TO FETCH WHENEVER WE CHANGE ORIENTATION
+        getCityList();
+        if (findViewById(R.id.data_holder)!=null) land_tablet = true;
 
     }
     @Override
@@ -74,59 +77,57 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void callWeatherForecastForACityStep1(String city) {
-
-        feedback.append("\nGetting forecast for: " + city); feedback.append("\n");
+    private void getWeatherConditions(){
 
         // call the remote api, passing an (anonymous) listener to get back the results
         client.retrieveWeatherConditionsDescriptions(new WeatherTypesResultsObserver() {
             @Override
             public void receiveWeatherTypesList(HashMap<Integer, WeatherType> descriptorsCollection) {
                 MainActivity.this.weatherDescriptions = descriptorsCollection;
-                callWeatherForecastForACityStep2( city);
             }
             @Override
             public void onFailure(Throwable cause) {
-                feedback.append("Failed to get weather conditions!");
+                Log.i("stage1","failed to get weather types");
             }
         });
 
     }
 
-    private void callWeatherForecastForACityStep2(String city) {
+    private void getCityList() {
         client.retrieveCitiesList(new CityResultsObserver() {
 
             @Override
             public void receiveCitiesList(HashMap<String, City> citiesCollection) {
                 MainActivity.this.cities = citiesCollection;
-                City cityFound = cities.get(city);
-                if( null != cityFound) {
-                    int locationId = cityFound.getGlobalIdLocal();
-                    callWeatherForecastForACityStep3(locationId);
-                } else {
-                    feedback.append("unknown city: " + city);
-                }
+                LinkedList sortTool = new LinkedList(cities.keySet());
+                Collections.sort(sortTool);
+                //start up menu fragment here
+                ButtonList frag = ButtonList.newInstance(sortTool); //was getting NPE so i assume there's some async stuff in here
+                getSupportFragmentManager().beginTransaction().replace(R.id.button_frame,frag).addToBackStack(null).commit();
             }
 
             @Override
             public void onFailure(Throwable cause) {
-                feedback.append("Failed to get cities list!");
+                Log.i("stage2","city list fetch failed");
             }
         });
     }
 
-    private void callWeatherForecastForACityStep3(int localId) {
+    public void callWeatherForecastForACity(String city) {
+        City cityFound = cities.get(city);
+        int localId = cityFound.getGlobalIdLocal();
         client.retrieveForecastForCity(localId, new ForecastForACityResultsObserver() {
             @Override
             public void receiveForecastList(List<Weather> forecast) {
+                /*
                 for (Weather day : forecast) {
                     feedback.append(day.toString());
                     feedback.append("\t");
-                }
+                }*/
             }
             @Override
             public void onFailure(Throwable cause) {
-                feedback.append( "Failed to get forecast for 5 days");
+                Log.i("stage3","forecast fetch failed");
             }
         });
 

@@ -12,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import java.util.LinkedList;
+import java.util.Set;
 
 import pt.ua.nextweather.R;
 
@@ -22,17 +23,11 @@ import pt.ua.nextweather.R;
  *
  */
 public class ButtonList extends Fragment {
-    private static final LinkedList<String> validcities = new LinkedList<>();
+    public LinkedList<String> validcities;
     LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
     private RecyclerView mRecyclerView;
     private ButtonListAdapter mAdapter;
-    static{
-        String [] x = new String[]{"Aveiro", "Beja", "Braga", "Bragança", "Castelo Branco", "Coimbra", "Évora", "Faro", "Guarda",
-                "Leiria", "Lisboa", "Portalegre", "Porto", "Santarém", "Setúbal", "Viana do Castelo", "Vila Real", "Viseu", "Funchal",
-                "Porto Santo", "Vila do Porto", "Ponta Delgada", "Angra do Heroísmo", "Santa Cruz da Graciosa", "Velas", "Madalena", "Horta",
-                "Santa Cruz das Flores", "Vila do Corvo"};
-        for(String y:x){validcities.add(y);}
-    }
+
 
 
     /**
@@ -42,8 +37,10 @@ public class ButtonList extends Fragment {
      * @return A new instance of fragment ButtonList.
      */
     // TODO: Rename and change types and number of parameters
-    public static ButtonList newInstance() {
+    public static ButtonList newInstance(LinkedList<String> cities) {
+
         ButtonList fragment = new ButtonList();
+        fragment.validcities = cities;
         Bundle args = new Bundle();
         fragment.setArguments(args);
         return fragment;
