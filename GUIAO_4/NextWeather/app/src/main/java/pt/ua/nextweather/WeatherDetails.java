@@ -14,6 +14,7 @@ import java.util.LinkedList;
 
 import pt.ua.nextweather.datamodel.Weather;
 import pt.ua.nextweather.ui.ButtonListAdapter;
+import pt.ua.nextweather.ui.MainActivity;
 import pt.ua.nextweather.ui.WeatherListAdapter;
 
 /**
@@ -71,7 +72,7 @@ public class WeatherDetails extends Fragment {
         View rootView =inflater.inflate(R.layout.fragment_list_layout, container, false);
         //instance recycleview here
         mRecyclerView = rootView.findViewById(R.id.list_recycler);
-        mAdapter = new WeatherListAdapter(getActivity(),weatherStates);
+        mAdapter = new WeatherListAdapter(getActivity(),weatherStates,(MainActivity)getActivity());
         mRecyclerView.setAdapter(mAdapter);
         mRecyclerView.setLayoutManager(layoutManager);
         return  rootView;

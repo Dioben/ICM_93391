@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     IpmaWeatherClient client = new IpmaWeatherClient();
     private HashMap<String, City> cities;
-    private HashMap<Integer, WeatherType> weatherDescriptions;
+    public HashMap<Integer, WeatherType> weatherDescriptions;
     LinearLayoutManager layoutManager = new LinearLayoutManager(this);
     private ButtonListAdapter bAdapter;
     private boolean land_tablet;
