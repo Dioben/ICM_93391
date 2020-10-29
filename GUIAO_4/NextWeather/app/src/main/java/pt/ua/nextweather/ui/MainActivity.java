@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,6 +23,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 import pt.ua.nextweather.R;
+import pt.ua.nextweather.WeatherDetails;
 import pt.ua.nextweather.datamodel.City;
 import pt.ua.nextweather.datamodel.Weather;
 import pt.ua.nextweather.datamodel.WeatherType;
@@ -103,12 +105,13 @@ public class MainActivity extends AppCompatActivity {
                 Collections.sort(sortTool);
                 //start up menu fragment here
                 ButtonList frag = ButtonList.newInstance(sortTool); //was getting NPE so i assume there's some async stuff in here
-                getSupportFragmentManager().beginTransaction().replace(R.id.button_frame,frag).addToBackStack(null).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.button_frame,frag).commit();
             }
 
             @Override
             public void onFailure(Throwable cause) {
                 Log.i("stage2","city list fetch failed");
+                Toast.makeText(getApplicationContext(),"make sure you are connected to the internet and restart",Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -119,15 +122,20 @@ public class MainActivity extends AppCompatActivity {
         client.retrieveForecastForCity(localId, new ForecastForACityResultsObserver() {
             @Override
             public void receiveForecastList(List<Weather> forecast) {
-                /*
-                for (Weather day : forecast) {
-                    feedback.append(day.toString());
-                    feedback.append("\t");
-                }*/
+                //expand fragments here
+             if (land_tablet){//frame data_holder is available
+                 WeatherDetails frag = WeatherDetails.newInstance(new LinkedList<Weather>(forecast),city);
+                 getSupportFragmentManager().beginTransaction().replace(R.id.data_holder,frag).addToBackStack(null).commit();
+             }
+                 else{
+                 WeatherDetails frag = WeatherDetails.newInstance(new LinkedList<Weather>(forecast),city);
+                 getSupportFragmentManager().beginTransaction().replace(R.id.button_frame,frag).addToBackStack(null).commit();
+             }
             }
             @Override
             public void onFailure(Throwable cause) {
                 Log.i("stage3","forecast fetch failed");
+                Toast.makeText(getApplicationContext(),"make sure you are connected to the internet",Toast.LENGTH_SHORT).show();
             }
         });
 

@@ -7,7 +7,7 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/button_recycler"
+        android:id="@+id/list_recycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </FrameLayout>
