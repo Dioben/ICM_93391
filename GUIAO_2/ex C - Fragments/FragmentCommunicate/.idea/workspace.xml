@@ -10,20 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bd4e7a9-22e7-4531-8c07-17c91377ae64" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__androidx_collection_collection_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_4/NextWeather/app/src/main/java/pt/ua/nextweather/ui/ButtonListAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../GUIAO_4/NextWeather/app/src/main/res/layout/buttonlistelement.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/modules.xml" afterDir="false" />
     </list>
@@ -50,7 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SongDetail" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -60,7 +63,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="FragmentCommunicate.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -130,5 +133,11 @@
       <updated>1603911325007</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1603924751414">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="311" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1603924751414" />
   </component>
 </project>

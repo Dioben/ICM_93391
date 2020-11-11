@@ -8,80 +8,21 @@
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="09d23d3f-101d-4bf0-a40a-0375374e5120" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/androidTest/java/com/example/exa/ExampleInstrumentedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/java/com/example/exa/FirstFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/java/com/example/exa/MainActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/java/com/example/exa/OrderActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/java/com/example/exa/SecondFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/drawable-anydpi/ic_shopping_cart.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/drawable-hdpi/ic_shopping_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/drawable-mdpi/ic_shopping_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/drawable-v24/donut_circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/drawable-v24/froyo_circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/drawable-v24/icecream_circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/drawable-xhdpi/ic_shopping_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/drawable-xxhdpi/ic_shopping_cart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/layout/activity_order.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/layout/content_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/layout/fragment_first.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/layout/fragment_second.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/app/src/test/java/com/example/exa/ExampleUnitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ExA/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FragmentExample/app/src/main/java/com/example/android/fragmentexample/SimpleFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FragmentExample/app/src/main/res/layout/fragment_simple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/songdetailstart/SongDetailFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_song_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../GUIAO_1/DialerHW/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../GUIAO_1/DialerHW/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../GUIAO_3/Ex2/WalkMyAndroid/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_C_API_30" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[22169bf7]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -95,7 +36,7 @@
     </system>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1iy2CcaYB1VZMLzx7xFZuIXHFal" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -103,7 +44,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -121,12 +61,13 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="app" />
+      <module name="SongDetail.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
       <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
@@ -162,11 +103,16 @@
       </Native>
       <Profilers>
         <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
